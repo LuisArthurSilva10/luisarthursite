@@ -1,0 +1,6 @@
+<select onchange="this.form.submit()" id="Produtos">
+          <option value="Instrumentos de corda">Instrumentos de corda</option>
+          <option value="Instrumentos de sopro">Instrumentos de sopro</option>
+          <option value="Instrumentos de percursão">Instrumentos de percursão</option>
+          <option value="Acessórios">Acessórios</option>
+        </select> 

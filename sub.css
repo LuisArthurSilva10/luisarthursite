@@ -1,0 +1,116 @@
+@font-face {
+    font-family: rubik ;
+    src: url(Rubik-VariableFont_wght);
+}
+@font-face {
+    font-family:Playfair2 ;
+    src: url(Fonts/PlayfairDisplay-VariableFont_wght.ttf );
+}
+body{
+    background-color:khaki;
+    font-family: rubik;
+}
+
+.logo{ 
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border: double 10px;
+    border-color:indianred;
+  }
+.Links{ 
+    display: block;
+    block-size: 30px;
+    margin-left: -8px;
+     margin-right: -8px;
+    background-color: firebrick;
+     border: double 10px;
+     border-top: none;
+     border-color:indianred;
+    display: flex ;
+    gap:20px;   
+}
+#produtos a{
+    padding: 10px 15px;    
+    display: block;
+    color:white;
+}
+#produtos .Dropdown{
+    display: none;
+    position: absolute;
+    background-color: firebrick;
+    box-shadow: 2px 2px 2px hsl(0, 2%, 46%);
+
+}
+#produtos:hover .Dropdown{
+    display: block;
+    color: gray;
+
+}
+.Dropdown:hover{
+    color: gray;
+}
+
+
+.botoes{
+    font-size: 18px;
+     font-family: rubik;
+    border:none;
+    background-color: firebrick;
+    color: lightyellow;
+}     
+#produtos:hover{
+color: gray;
+}
+#horarios:hover{
+cursor: pointer;
+color: gray;
+}
+#contatos:hover{
+cursor: pointer;
+color: gray;
+}
+.botoes:active{
+    color: yellow;
+}
+footer{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.creditos{
+    text-align:center;
+}
+.texto_main{
+    text-align: center;
+
+}
+footer{
+    margin-top:400px;
+}
+.text2{
+    text-align: center;
+}
+.texto_erro{
+ text-align:center ;
+ color: firebrick;
+}
+.contatos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.logo_contato{
+    height: 20px;
+}
+.botão{
+    background-color: khaki;
+    color: black;
+    border: none;
+}
+.botão:hover{
+   color: gray;
+   cursor: pointer;
+}
+.botão:active{
+    color:yellow;
+}
