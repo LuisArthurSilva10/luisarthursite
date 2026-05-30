@@ -12,9 +12,7 @@ body{
 }
 
 .header{ 
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
+    background-color:firebrick;
     border: double 10px;
     border-color:indianred;
   }
