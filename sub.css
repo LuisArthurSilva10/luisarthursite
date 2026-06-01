@@ -107,10 +107,7 @@ color: gray;
 cursor: pointer;
 color: gray;
 }
-#botoes_contatos:hover{
-cursor: pointer;
-color: gray;
-}
+
 .botoes:active{
     color: yellow;
 }
@@ -119,7 +116,9 @@ footer{
     margin-right: -10px;
 }
 .creditos{
-    text-align:center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 .texto_main{
     text-align: center;
