@@ -50,17 +50,6 @@ body{
     margin-left: 0;
     margin-right: 0;
 }
-#produtos .Dropdown a:hover {
-    background-color: indianred;
-    color: white;
-}
-#produtos .Dropdown a {
-    color: lightyellow; 
-    padding: 10px 15px;  
-    text-decoration: none;   
-    display: block;          
-    text-align: left;        
-}
 #produtos{
     position: relative;
     padding: 10px 15px;    
@@ -70,15 +59,30 @@ body{
 #produtos .Dropdown{
     display: none;
     position: absolute;
-    top: 100%;
+    top: 100%;     
     left: 0;
     z-index: 10;
-    min-width: 160px;
+    min-width: 180px;
     background-color: firebrick;
-    box-shadow: 2px 2px 2px hsl(0, 2%, 46%);
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+
+    flex-direction: column;
 }
+#produtos .Dropdown a {
+   color: lightyellow; 
+    padding: 12px 15px;  
+    text-decoration: none; 
+    display: block;        
+    text-align: left;    
+    width: 100%;      
+}
+#produtos .Dropdown a:hover {
+    background-color: indianred;
+    color: white;
+}
+
 #produtos:hover .Dropdown{
-    display: block;
+    display: flex;
     color: gray;
 }
 .Dropdown:hover{
