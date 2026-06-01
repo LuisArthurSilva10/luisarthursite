@@ -10,22 +10,25 @@ body{
     background-color:khaki;
     font-family: rubik;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .header{ 
     background-color:firebrick;
     border: double 10px;
     border-color:indianred;
-  }
-  #logo{ 
-    margin-top: -8px;
-    margin-left: -8px;
-    margin-right: -8px;
-  }
-  #icon{
-    margin-top: -8px;
-    margin-left: -100px;
-    margin-right: -8px;
-  }
+  } 
+#icon{
+    margin-left:  1300px;
+}
+#logo{
+    margin-right:100px;
+    
+}
+  
 .Links{ 
     display: block;
     block-size: 30px;
