@@ -49,7 +49,7 @@ body{
     padding: 5px 20px;
     margin-left: 0;
     margin-right: 0;
-    align-items: center;
+    align-items: center;    
 }
 #produtos{
     position: relative;
@@ -95,6 +95,10 @@ body{
     border:none;
     background-color: firebrick;
     color: lightyellow;
+
+    display: inline-block;
+    line-height: 1; 
+    text-decoration: none;
 }     
 #botoes_produtos:hover{
 color: gray;
