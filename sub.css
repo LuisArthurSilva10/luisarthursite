@@ -9,39 +9,48 @@
 body{
     background-color:khaki;
     font-family: rubik;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
 }
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+      box-sizing: border-box;
 }
 
 .header{ 
+    width: 100%;
     background-color:firebrick;
     border: double 10px;
     border-color:indianred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px; 
+    box-sizing: border-box;
   } 
 #icon{
-    margin-left:  1300px;
+    margin: 0;
 }
 #logo{
-    margin-right:100px;
+    margin:0;
     
 }
   
 .Links{ 
-    display: block;
-    block-size: 30px;
-    margin-left: -8px;
-     margin-right: -8px;
+    width: 100%; 
+    display: flex;
+    gap: 20px;   
     background-color: firebrick;
-     border: double 10px;
-     border-top: none;
-     border-color:indianred;
-    display: flex ;
-    gap:20px;   
+    border: double 10px;
+    border-top: none;
+    border-color: indianred;
+    padding: 5px 20px;
+    margin-left: 0;
+    margin-right: 0;
 }
-#produtos a{
+#produtos{
     padding: 10px 15px;    
     display: block;
     color:white;
@@ -51,12 +60,10 @@ body{
     position: absolute;
     background-color: firebrick;
     box-shadow: 2px 2px 2px hsl(0, 2%, 46%);
-
 }
 #produtos:hover .Dropdown{
     display: block;
     color: gray;
-
 }
 .Dropdown:hover{
     color: gray;
