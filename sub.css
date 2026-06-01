@@ -49,6 +49,7 @@ body{
     padding: 5px 20px;
     margin-left: 0;
     margin-right: 0;
+    align-items: center;
 }
 #produtos{
     position: relative;
