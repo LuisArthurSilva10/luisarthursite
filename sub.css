@@ -13,6 +13,21 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+a{
+    color: antiquewhite;
+    text-decoration:none;
+}
+a:hover{
+    color:gray;
+    cursor:pointer;
+}
+a:active{
+    color:yellow;
+
+}
+.contatos:hover{
+    cursor:pointer;
+}
 * {
     margin: 0;
     padding: 0;
