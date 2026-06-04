@@ -191,19 +191,19 @@ img.mostreSlide {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0); 
+    background-color: rgba(255, 255, 255, 0); 
     color: rgb(0, 0, 0); 
     border: none;
     cursor: pointer;
     font-size: 15px;
     padding: 10px 15px;
-    border-radius: 50%;
+    border-radius: 25%;
     transition: background-color 0.3s;
     z-index: 5;
 }
 
 .slider button:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255, 0.842);
 }
 
 
