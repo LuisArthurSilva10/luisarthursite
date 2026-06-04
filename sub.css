@@ -162,19 +162,18 @@ footer {
 
 .slider {
     position: relative;
-    width: 100%;
+    width:100%;
     max-width: 600px;
     margin: auto;
     overflow: hidden;
 }
 
 .slider img {
-    width: 100%; 
+    width:100%;
     display: none;
     animation-name: fade;
     animation-duration: 1.5s;
 }
-
 img.mostreSlide {
     display: block; 
     margin: 25px auto 10px auto;
@@ -209,7 +208,10 @@ img.mostreSlide {
 .posterior{
     right: 25px;
 }
-
+.slides{
+    height:400px;
+    width:600px;
+}
 @keyframes fade {
     from { opacity: .5; }
     to { opacity: 1; }
