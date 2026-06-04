@@ -27,6 +27,7 @@ function prevSlide(){
     mostreSlide(slideIndex);
 }
 function nextSlide(){
+    clearInterval(intervaloId);
    slideIndex++;
    mostreSlide(slideIndex);
 
