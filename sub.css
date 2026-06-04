@@ -34,7 +34,7 @@ a:active {
 }
 
 .header { 
-    width: 100%;
+   
     background-color: firebrick;
     display: flex;
     justify-content: space-between;
@@ -47,7 +47,7 @@ a:active {
 }
   
 .Links { 
-    width: 100%; 
+    
     display: flex;
     gap: 20px;   
     background-color: firebrick;
@@ -297,4 +297,57 @@ img.mostreSlide {
 #botao_carr:hover{
     cursor:pointer;
     transform: scale(1.1);
+}
+.carrinho {
+   margin-left:1250px;
+}
+
+.carrinho img {
+    height: 30px; /* Ajuste o tamanho do carrinho aqui */
+}
+.sobre-nos {
+    background-color: #fbf9f1; 
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto; 
+    color: #333333; 
+}
+
+
+.sobre-nos h2 {
+    font-size: 2rem;
+    color: #a81d1d; 
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0dcd0;
+    padding-bottom: 10px;
+}
+.sobre-nos .introducao {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #555;
+}
+.lista-produtos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-produtos li {
+    font-size: 1rem;
+    line-height: 1.6; 
+    margin-bottom: 18px; 
+    padding-left: 15px;
+    border-left: 3px solid #a81d1d;
+}
+
+.lista-produtos li strong {
+    color: #111;
+    font-size: 1.05rem;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+#link_produtos_index{
+    text-align:center;
+    color:#111;
+    text-decoration:none;
 }
