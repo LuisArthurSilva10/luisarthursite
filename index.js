@@ -32,3 +32,33 @@ function nextSlide(){
    mostreSlide(slideIndex);
 
 }
+function abrirModal() {
+    document.getElementById("modalLogin").style.display = "block";
+}
+
+
+function fecharModal() {
+    document.getElementById("modalLogin").style.display = "none";
+    document.getElementById("mensagem-erro").innerText = "";
+}
+
+window.onclick = function(event) {
+    const modal = document.getElementById("modalLogin");
+    if (event.target == modal) {
+        fecharModal();
+    }
+}
+function efetuarLogin(event) {
+    event.preventDefault(); 
+    
+    const usuarioDigitado = document.getElementById("usuario").value;
+    const senhaDigitada = document.getElementById("senha").value;
+    const mensagemErro = document.getElementById("mensagem-erro");
+
+    if (usuarioDigitado === "admin" && senhaDigitada === "1234") {
+        alert("Login efetuado com sucesso na JC Instrumentos!");
+        fecharModal();
+    } else {
+        mensagemErro.innerText = "Usuário ou senha incorretos.";
+    }
+}

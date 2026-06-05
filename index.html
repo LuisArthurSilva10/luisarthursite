@@ -1,76 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <link rel="icon" href="imagens_gifs/Jc/logo.png">
-     <title>Jc Instrumentos</title>
-     <link rel="stylesheet" href="sub.css">
+    <title>Jc Instrumentos</title>
+    <link rel="stylesheet" href="sub.css">
 </head>
 <body>
     <header>
-       <div class="header">
-       <div style="background-color: firebrick;" id="logo" ><a href="index.html" 
-         title="Início"><img src="imagens_gifs/Jc/Loja/logo.png" 
-         alt="Logo da loja"
-         height="80"></a>
-         </div>
+        <div class="header"> 
+            <div style="background-color: firebrick;" id="logo">
+                <a href="index.html" title="Início">
+                    <img src="imagens_gifs/Jc/Loja/logo.png" alt="Logo da loja" height="80">
+                </a>
+            </div>
         </div>
 
         <div class="Links">
-        <div class="box" id="produtos">
-       <button class="botoes" id="botoes_produtos">Produtos</button>
-            <div class="Dropdown">
-           <a href="instrumentos.html">Instrumentos</a>
-           <a href="acessórios.html">Acessórios</a>
-           </div>
-        </div>
-         <div class="box" id="horarios">
-           <button class="botoes" id="botoes_horarios">Horários</button>
-           <div class="Dropdown">
-              <a >Dom: Fechados</a>
-             <a >Seg: 8:00-18:00</a>
-             <a >Ter: 8:00-18:00</a>
-             <a >Qua: 8:00-18:00</a>
-             <a >Qui: 8:00-18:00</a>
-             <a >Sex: 8:00-18:00</a>
-             <a >Sab: 8:00-14:00</a>
-           </div>
-         </div>
+            <div class="box" id="produtos">
+                <button class="botoes" id="botoes_produtos">Produtos</button>
+                <div class="Dropdown">
+                    <a href="instrumentos.html">Instrumentos</a>
+                    <a href="acessórios.html">Acessórios</a>
+                </div>
+            </div>
+
+            <div class="box" id="horarios">
+                <button class="botoes" id="botoes_horarios">Horários</button>
+                <div class="Dropdown">
+                    <a>Dom: Fechados</a>
+                    <a>Seg: 8:00-18:00</a>
+                    <a>Ter: 8:00-18:00</a>
+                    <a>Qua: 8:00-18:00</a>
+                    <a>Qui: 8:00-18:00</a>
+                    <a>Sex: 8:00-18:00</a>
+                    <a>Sab: 8:00-14:00</a>
+                </div>
+            </div>
+
+            <div class="box" id="login">
+                <button class="botoes" id="botao_login" onclick="abrirModal()">Login</button>
+            </div>
         </div>
     </header>
+
     <main>
-      <section class="sobre_nos">
-        <h2>Sobre nós</h2>
-  <p class="introducao">O Que Você Encontra Por Aqui:</p>
-  
-  <ul class="lista-produtos">
-    <li><strong>Instrumentos Musicais:</strong> Uma seleção curada de guitarras, violões, teclados, baterias e sopro, das marcas mais sintonizadas do mercado.</li>
-    <li><strong>Áudio e Equipamentos:</strong> Tudo para o seu home studio ou show ao vivo — de microfones e interfaces de áudio a amplificadores e cabos de alta performance.</li>
-    <li><strong>Acessórios:</strong> Palhetas, cordas, baquetas, Bags e tudo o que você precisa para manter o seu som em dia.</li>
-  </ul>
-</section>
+        <section class="sobre_nos">
+            <h2>Sobre nós</h2>
+            <p class="introducao">O Que Você Encontra Por Aqui:</p>
+            
+            <ul class="lista-produtos">
+                <li><strong>Instrumentos Musicais:</strong> Uma seleção curada de guitarras, violões, teclados, baterias e sopro, das marcas mais sintonizadas do mercado.</li>
+                <li><strong>Áudio e Equipamentos:</strong> Tudo para o seu home studio ou show ao vivo — de microfones e interfaces de áudio a amplificadores e cabos de alta performance.</li>
+                <li><strong>Acessórios:</strong> Palhetas, cordas, baquetas, Bags e tudo o que você precisa para manter o seu som em dia.</li>
+            </ul>
+        </section>
     </main>
+
     <div class="slider"> 
-      <div class="slides">
-      <img src="imagens_gifs/Jc/Loja/img1.png" alt="Imagem 1">
-      <img src="imagens_gifs/Jc/Loja/img2.jpg" alt="Imagem 2">
-      <img src="imagens_gifs/Jc/Loja/img3.jpg" alt="Imagem 3">
-      <img src="imagens_gifs/Jc/Loja/img4.webp" alt="Imagem 4">
+        <div class="slides">
+            <img src="imagens_gifs/Jc/Loja/img1.png" alt="Imagem 1">
+            <img src="imagens_gifs/Jc/Loja/img2.jpg" alt="Imagem 2">
+            <img src="imagens_gifs/Jc/Loja/img3.jpg" alt="Imagem 3">
+            <img src="imagens_gifs/Jc/Loja/img4.webp" alt="Imagem 4">
         </div>
-      <button class="anterior"  onclick=prevSlide()>&#10094;</button>
-    <button class="posterior" onclick=nextSlide()>&#10095;</button>
+        <button class="anterior" onclick="prevSlide()">&#10094;</button>
+        <button class="posterior" onclick="nextSlide()">&#10095;</button>
     </div>
-    <br>
-    <br>
-    <br>
-      <a href="instrumentos.html">
-      <h3 id="link_produtos_index">Cheque nossos instrumentos aqui</h3>
-      </a>
-    <script src="index.js"></script>
-    <footer> <div class="contatos" style="background-color: firebrick; color: antiquewhite;">
-         <div class="contatos" style="background-color: firebrick; color: antiquewhite;">
-           <a href="https://www.instagram.com/jcinstrumentos/"><img src="imagens_gifs/Jc/Contatos/instagram.png" height="20" alt="Imagem Instagram"></a><a href="https://www.instagram.com/jcinstrumentos/">Instagram</a>
-          <a href="https://share.google/MZ2vvWLFHCpl9vbVl"><img src="imagens_gifs/Jc/Contatos/google.png" height="18" alt="Imagem Google" ></a><a href="https://share.google/MZ2vvWLFHCpl9vbVl">Google</a>
+
+    <br><br><br>
+
+    <a href="instrumentos.html">
+        <h3 id="link_produtos_index">Cheque nossos instrumentos aqui</h3>
+    </a>
+
+    <div id="modalLogin" class="modal-login">
+        <div class="conteudo-modal">
+            <span class="fechar" onclick="fecharModal()">&times;</span>
+            <h2>Acessar Conta</h2>
+            <form id="formLogin" onsubmit="efetuarLogin(event)">
+                <div class="campo-grupo">
+                    <label for="usuario">Usuário ou E-mail:</label>
+                    <input type="text" id="usuario" required placeholder="Digite seu usuário">
+                </div>
+                <div class="campo-grupo">
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" required placeholder="Digite sua senha">
+                </div>
+                <button type="submit" class="botao-entrar">Entrar</button>
+                <p id="mensagem-erro" class="mensagem-erro"></p>
+            </form>
         </div>
-       </div> 
+    </div>
+
+    <script src="index.js"></script>
+
+    <footer> 
+        <div class="contatos" style="background-color: firebrick; color: antiquewhite;">
+            <div class="contatos" style="background-color: firebrick; color: antiquewhite;">
+                <a href="https://www.instagram.com/jcinstrumentos/"><img src="imagens_gifs/Jc/Contatos/instagram.png" height="20" alt="Imagem Instagram"></a>
+                <a href="https://www.instagram.com/jcinstrumentos/">Instagram</a>
+                <a href="https://share.google/MZ2vvWLFHCpl9vbVl"><img src="imagens_gifs/Jc/Contatos/google.png" height="18" alt="Imagem Google"></a>
+                <a href="https://share.google/MZ2vvWLFHCpl9vbVl">Google</a>
+            </div>
+        </div> 
     </footer>
 </body>
+</html>
